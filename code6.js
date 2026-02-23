@@ -247,7 +247,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Pause") >= 0.25;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26113028);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26164580);
 }
 }
 if (isConditionTrue_0) {
@@ -376,7 +376,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26125252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26176804);
 }
 }
 if (isConditionTrue_0) {
@@ -389,7 +389,37 @@ if (isConditionTrue_0) {
 
 };gdjs.Strada_45lvl_323Code.mapOfGDgdjs_9546Strada_959545lvl_9595323Code_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.Strada_45lvl_323Code.GDPlayerObjects1});
 gdjs.Strada_45lvl_323Code.mapOfGDgdjs_9546Strada_959545lvl_9595323Code_9546GDPORTALObjects1Objects = Hashtable.newFrom({"PORTAL": gdjs.Strada_45lvl_323Code.GDPORTALObjects1});
+gdjs.Strada_45lvl_323Code.mapOfGDgdjs_9546Strada_959545lvl_9595323Code_9546GDPlayerObjects2Objects = Hashtable.newFrom({"Player": gdjs.Strada_45lvl_323Code.GDPlayerObjects2});
+gdjs.Strada_45lvl_323Code.mapOfGDgdjs_9546Strada_959545lvl_9595323Code_9546GDCoins3Objects2Objects = Hashtable.newFrom({"Coins3": gdjs.Strada_45lvl_323Code.GDCoins3Objects2});
 gdjs.Strada_45lvl_323Code.eventsList2 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Coins3"), gdjs.Strada_45lvl_323Code.GDCoins3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.Strada_45lvl_323Code.GDPlayerObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Strada_45lvl_323Code.mapOfGDgdjs_9546Strada_959545lvl_9595323Code_9546GDPlayerObjects2Objects, gdjs.Strada_45lvl_323Code.mapOfGDgdjs_9546Strada_959545lvl_9595323Code_9546GDCoins3Objects2Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+/* Reuse gdjs.Strada_45lvl_323Code.GDCoins3Objects2 */
+gdjs.copyArray(runtimeScene.getObjects("Emote_Star3"), gdjs.Strada_45lvl_323Code.GDEmote_9595Star3Objects2);
+{runtimeScene.getGame().getVariables().getFromIndex(5).add(1);
+}
+{gdjs.evtTools.sound.playSound(runtimeScene, "PickupCoin", false, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Sound")), gdjs.randomFloatInRange(1, 1.1));
+}
+{for(var i = 0, len = gdjs.Strada_45lvl_323Code.GDCoins3Objects2.length ;i < len;++i) {
+    gdjs.Strada_45lvl_323Code.GDCoins3Objects2[i].deleteFromScene(runtimeScene);
+}
+}
+{for(var i = 0, len = gdjs.Strada_45lvl_323Code.GDEmote_9595Star3Objects2.length ;i < len;++i) {
+    gdjs.Strada_45lvl_323Code.GDEmote_9595Star3Objects2[i].getBehavior("Opacity").setOpacity(255);
+}
+}
+}
+
+}
+
 
 {
 
@@ -670,7 +700,7 @@ for (var i = 0, k = 0, l = gdjs.Strada_45lvl_323Code.GDPlayerObjects2.length;i<l
 gdjs.Strada_45lvl_323Code.GDPlayerObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26138964);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26192636);
 }
 }
 if (isConditionTrue_0) {
@@ -950,16 +980,6 @@ if (isConditionTrue_0) {
     gdjs.Strada_45lvl_323Code.GDPlayerObjects1[i].setY(200);
 }
 }
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
 }
 
 }
