@@ -860,7 +860,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Strada_45lvl_323Code.mapOfGDgdjs_9546Strada_959545lvl_9595323Code_9546GDPlayerObjects1Objects, gdjs.Strada_45lvl_323Code.mapOfGDgdjs_9546Strada_959545lvl_9595323Code_9546GDPORTALObjects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(3).setNumber(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "Time"));
+{runtimeScene.getGame().getVariables().getFromIndex(3).add(gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "Time"));
 }
 {gdjs.evtTools.runtimeScene.pushScene(runtimeScene, "WIN3");
 }

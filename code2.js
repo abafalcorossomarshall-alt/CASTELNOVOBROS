@@ -872,7 +872,7 @@ isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Level2Code.m
 if (isConditionTrue_0) {
 /* Reuse gdjs.Level2Code.GDPlayObjects1 */
 {for(var i = 0, len = gdjs.Level2Code.GDPlayObjects1.length ;i < len;++i) {
-    gdjs.Level2Code.GDPlayObjects1[i].setX(6300);
+    gdjs.Level2Code.GDPlayObjects1[i].setX(30000);
 }
 }
 {for(var i = 0, len = gdjs.Level2Code.GDPlayObjects1.length ;i < len;++i) {
@@ -1080,7 +1080,7 @@ gdjs.copyArray(runtimeScene.getObjects("Play"), gdjs.Level2Code.GDPlayObjects1);
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.Level2Code.GDPlayObjects1.length;i<l;++i) {
-    if ( gdjs.Level2Code.GDPlayObjects1[i].getY() > 3000 ) {
+    if ( gdjs.Level2Code.GDPlayObjects1[i].getY() > 2000 ) {
         isConditionTrue_0 = true;
         gdjs.Level2Code.GDPlayObjects1[k] = gdjs.Level2Code.GDPlayObjects1[i];
         ++k;
@@ -1090,7 +1090,7 @@ gdjs.Level2Code.GDPlayObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.Level2Code.GDPlayObjects1.length;i<l;++i) {
-    if ( gdjs.Level2Code.GDPlayObjects1[i].getX() > 5700 ) {
+    if ( gdjs.Level2Code.GDPlayObjects1[i].getX() > 14200 ) {
         isConditionTrue_0 = true;
         gdjs.Level2Code.GDPlayObjects1[k] = gdjs.Level2Code.GDPlayObjects1[i];
         ++k;
