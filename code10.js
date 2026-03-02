@@ -212,7 +212,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Pause") >= 0.25;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26705444);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26701596);
 }
 }
 if (isConditionTrue_0) {
@@ -328,7 +328,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26717972);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26714124);
 }
 }
 if (isConditionTrue_0) {
