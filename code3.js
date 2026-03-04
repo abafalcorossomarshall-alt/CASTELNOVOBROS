@@ -250,7 +250,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Pause") >= 0.25;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25326108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25527908);
 }
 }
 if (isConditionTrue_0) {
@@ -379,7 +379,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25331780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25533308);
 }
 }
 if (isConditionTrue_0) {
@@ -553,7 +553,7 @@ for (var i = 0, k = 0, l = gdjs.Level2Code.GDPlayObjects2.length;i<l;++i) {
 gdjs.Level2Code.GDPlayObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25339396);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25540924);
 }
 }
 if (isConditionTrue_0) {
@@ -800,11 +800,11 @@ gdjs.Level2Code.GDPlayObjects1.length = k;
 if (isConditionTrue_0) {
 /* Reuse gdjs.Level2Code.GDPlayObjects1 */
 {for(var i = 0, len = gdjs.Level2Code.GDPlayObjects1.length ;i < len;++i) {
-    gdjs.Level2Code.GDPlayObjects1[i].setX(6550);
+    gdjs.Level2Code.GDPlayObjects1[i].setX(30000);
 }
 }
 {for(var i = 0, len = gdjs.Level2Code.GDPlayObjects1.length ;i < len;++i) {
-    gdjs.Level2Code.GDPlayObjects1[i].setY(640);
+    gdjs.Level2Code.GDPlayObjects1[i].setY(590);
 }
 }
 {gdjs.evtTools.sound.playSound(runtimeScene, "New sound effect3", false, gdjs.evtTools.variable.getVariableChildCount(runtimeScene.getGame().getVariables().getFromIndex(2).getChild("Sound")), 1);
