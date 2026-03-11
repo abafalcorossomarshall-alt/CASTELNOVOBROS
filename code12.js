@@ -220,7 +220,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26764228);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26778372);
 }
 }
 if (isConditionTrue_0) {

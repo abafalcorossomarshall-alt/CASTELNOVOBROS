@@ -339,7 +339,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Pause") >= 0.25;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26153108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26167252);
 }
 }
 if (isConditionTrue_0) {
@@ -529,7 +529,7 @@ for (var i = 0, k = 0, l = gdjs.Happy_45lvl_323Code.GDPlayerObjects2.length;i<l;
 gdjs.Happy_45lvl_323Code.GDPlayerObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26159404);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26173548);
 }
 }
 if (isConditionTrue_0) {
