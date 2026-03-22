@@ -211,6 +211,12 @@ gdjs.Strada_45lvl_323Code.GDNewText242323Objects3= [];
 gdjs.Strada_45lvl_323Code.GDNewText35tyetrObjects1= [];
 gdjs.Strada_45lvl_323Code.GDNewText35tyetrObjects2= [];
 gdjs.Strada_45lvl_323Code.GDNewText35tyetrObjects3= [];
+gdjs.Strada_45lvl_323Code.GDINFO2Objects1= [];
+gdjs.Strada_45lvl_323Code.GDINFO2Objects2= [];
+gdjs.Strada_45lvl_323Code.GDINFO2Objects3= [];
+gdjs.Strada_45lvl_323Code.GDINFOObjects1= [];
+gdjs.Strada_45lvl_323Code.GDINFOObjects2= [];
+gdjs.Strada_45lvl_323Code.GDINFOObjects3= [];
 
 
 gdjs.Strada_45lvl_323Code.eventsList0 = function(runtimeScene) {
@@ -247,7 +253,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Pause") >= 0.25;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26376452);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26515204);
 }
 }
 if (isConditionTrue_0) {
@@ -376,7 +382,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26388676);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26527428);
 }
 }
 if (isConditionTrue_0) {
@@ -700,7 +706,7 @@ for (var i = 0, k = 0, l = gdjs.Strada_45lvl_323Code.GDPlayerObjects2.length;i<l
 gdjs.Strada_45lvl_323Code.GDPlayerObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26404508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26543260);
 }
 }
 if (isConditionTrue_0) {
@@ -1200,6 +1206,12 @@ gdjs.Strada_45lvl_323Code.GDNewText242323Objects3.length = 0;
 gdjs.Strada_45lvl_323Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.Strada_45lvl_323Code.GDNewText35tyetrObjects2.length = 0;
 gdjs.Strada_45lvl_323Code.GDNewText35tyetrObjects3.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFO2Objects1.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFO2Objects2.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFO2Objects3.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFOObjects1.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFOObjects2.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFOObjects3.length = 0;
 
 gdjs.Strada_45lvl_323Code.eventsList4(runtimeScene);
 gdjs.Strada_45lvl_323Code.GDCoinObjects1.length = 0;
@@ -1412,6 +1424,12 @@ gdjs.Strada_45lvl_323Code.GDNewText242323Objects3.length = 0;
 gdjs.Strada_45lvl_323Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.Strada_45lvl_323Code.GDNewText35tyetrObjects2.length = 0;
 gdjs.Strada_45lvl_323Code.GDNewText35tyetrObjects3.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFO2Objects1.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFO2Objects2.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFO2Objects3.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFOObjects1.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFOObjects2.length = 0;
+gdjs.Strada_45lvl_323Code.GDINFOObjects3.length = 0;
 
 
 return;

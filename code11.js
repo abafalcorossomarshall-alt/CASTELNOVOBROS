@@ -112,6 +112,12 @@ gdjs.Pause2Code.GDNewText242323Objects3= [];
 gdjs.Pause2Code.GDNewText35tyetrObjects1= [];
 gdjs.Pause2Code.GDNewText35tyetrObjects2= [];
 gdjs.Pause2Code.GDNewText35tyetrObjects3= [];
+gdjs.Pause2Code.GDINFO2Objects1= [];
+gdjs.Pause2Code.GDINFO2Objects2= [];
+gdjs.Pause2Code.GDINFO2Objects3= [];
+gdjs.Pause2Code.GDINFOObjects1= [];
+gdjs.Pause2Code.GDINFOObjects2= [];
+gdjs.Pause2Code.GDINFOObjects3= [];
 
 
 gdjs.Pause2Code.eventsList0 = function(runtimeScene) {
@@ -335,7 +341,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26732436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26871188);
 }
 }
 if (isConditionTrue_0) {
@@ -472,6 +478,12 @@ gdjs.Pause2Code.GDNewText242323Objects3.length = 0;
 gdjs.Pause2Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.Pause2Code.GDNewText35tyetrObjects2.length = 0;
 gdjs.Pause2Code.GDNewText35tyetrObjects3.length = 0;
+gdjs.Pause2Code.GDINFO2Objects1.length = 0;
+gdjs.Pause2Code.GDINFO2Objects2.length = 0;
+gdjs.Pause2Code.GDINFO2Objects3.length = 0;
+gdjs.Pause2Code.GDINFOObjects1.length = 0;
+gdjs.Pause2Code.GDINFOObjects2.length = 0;
+gdjs.Pause2Code.GDINFOObjects3.length = 0;
 
 gdjs.Pause2Code.eventsList3(runtimeScene);
 gdjs.Pause2Code.GDNewSpriteObjects1.length = 0;
@@ -585,6 +597,12 @@ gdjs.Pause2Code.GDNewText242323Objects3.length = 0;
 gdjs.Pause2Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.Pause2Code.GDNewText35tyetrObjects2.length = 0;
 gdjs.Pause2Code.GDNewText35tyetrObjects3.length = 0;
+gdjs.Pause2Code.GDINFO2Objects1.length = 0;
+gdjs.Pause2Code.GDINFO2Objects2.length = 0;
+gdjs.Pause2Code.GDINFO2Objects3.length = 0;
+gdjs.Pause2Code.GDINFOObjects1.length = 0;
+gdjs.Pause2Code.GDINFOObjects2.length = 0;
+gdjs.Pause2Code.GDINFOObjects3.length = 0;
 
 
 return;

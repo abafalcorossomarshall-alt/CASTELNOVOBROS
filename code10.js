@@ -112,6 +112,12 @@ gdjs.PauseCode.GDNewText242323Objects3= [];
 gdjs.PauseCode.GDNewText35tyetrObjects1= [];
 gdjs.PauseCode.GDNewText35tyetrObjects2= [];
 gdjs.PauseCode.GDNewText35tyetrObjects3= [];
+gdjs.PauseCode.GDINFO2Objects1= [];
+gdjs.PauseCode.GDINFO2Objects2= [];
+gdjs.PauseCode.GDINFO2Objects3= [];
+gdjs.PauseCode.GDINFOObjects1= [];
+gdjs.PauseCode.GDINFOObjects2= [];
+gdjs.PauseCode.GDINFOObjects3= [];
 
 
 gdjs.PauseCode.eventsList0 = function(runtimeScene) {
@@ -212,7 +218,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Pause") >= 0.25;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26676292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26815044);
 }
 }
 if (isConditionTrue_0) {
@@ -328,7 +334,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26688220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26826972);
 }
 }
 if (isConditionTrue_0) {
@@ -465,6 +471,12 @@ gdjs.PauseCode.GDNewText242323Objects3.length = 0;
 gdjs.PauseCode.GDNewText35tyetrObjects1.length = 0;
 gdjs.PauseCode.GDNewText35tyetrObjects2.length = 0;
 gdjs.PauseCode.GDNewText35tyetrObjects3.length = 0;
+gdjs.PauseCode.GDINFO2Objects1.length = 0;
+gdjs.PauseCode.GDINFO2Objects2.length = 0;
+gdjs.PauseCode.GDINFO2Objects3.length = 0;
+gdjs.PauseCode.GDINFOObjects1.length = 0;
+gdjs.PauseCode.GDINFOObjects2.length = 0;
+gdjs.PauseCode.GDINFOObjects3.length = 0;
 
 gdjs.PauseCode.eventsList3(runtimeScene);
 gdjs.PauseCode.GDNewSpriteObjects1.length = 0;
@@ -578,6 +590,12 @@ gdjs.PauseCode.GDNewText242323Objects3.length = 0;
 gdjs.PauseCode.GDNewText35tyetrObjects1.length = 0;
 gdjs.PauseCode.GDNewText35tyetrObjects2.length = 0;
 gdjs.PauseCode.GDNewText35tyetrObjects3.length = 0;
+gdjs.PauseCode.GDINFO2Objects1.length = 0;
+gdjs.PauseCode.GDINFO2Objects2.length = 0;
+gdjs.PauseCode.GDINFO2Objects3.length = 0;
+gdjs.PauseCode.GDINFOObjects1.length = 0;
+gdjs.PauseCode.GDINFOObjects2.length = 0;
+gdjs.PauseCode.GDINFOObjects3.length = 0;
 
 
 return;

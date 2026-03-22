@@ -193,6 +193,12 @@ gdjs.chiesa_45lvl_322Code.GDNewText242323Objects3= [];
 gdjs.chiesa_45lvl_322Code.GDNewText35tyetrObjects1= [];
 gdjs.chiesa_45lvl_322Code.GDNewText35tyetrObjects2= [];
 gdjs.chiesa_45lvl_322Code.GDNewText35tyetrObjects3= [];
+gdjs.chiesa_45lvl_322Code.GDINFO2Objects1= [];
+gdjs.chiesa_45lvl_322Code.GDINFO2Objects2= [];
+gdjs.chiesa_45lvl_322Code.GDINFO2Objects3= [];
+gdjs.chiesa_45lvl_322Code.GDINFOObjects1= [];
+gdjs.chiesa_45lvl_322Code.GDINFOObjects2= [];
+gdjs.chiesa_45lvl_322Code.GDINFOObjects3= [];
 
 
 gdjs.chiesa_45lvl_322Code.mapOfGDgdjs_9546chiesa_959545lvl_9595322Code_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.chiesa_45lvl_322Code.GDPlayerObjects1});
@@ -337,7 +343,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Pause") >= 0.25;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25755324);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25894076);
 }
 }
 if (isConditionTrue_0) {
@@ -527,7 +533,7 @@ for (var i = 0, k = 0, l = gdjs.chiesa_45lvl_322Code.GDPlayerObjects2.length;i<l
 gdjs.chiesa_45lvl_322Code.GDPlayerObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25764220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(25902972);
 }
 }
 if (isConditionTrue_0) {
@@ -1195,6 +1201,12 @@ gdjs.chiesa_45lvl_322Code.GDNewText242323Objects3.length = 0;
 gdjs.chiesa_45lvl_322Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.chiesa_45lvl_322Code.GDNewText35tyetrObjects2.length = 0;
 gdjs.chiesa_45lvl_322Code.GDNewText35tyetrObjects3.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFO2Objects1.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFO2Objects2.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFO2Objects3.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFOObjects1.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFOObjects2.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFOObjects3.length = 0;
 
 gdjs.chiesa_45lvl_322Code.eventsList4(runtimeScene);
 gdjs.chiesa_45lvl_322Code.GDCoinsObjects1.length = 0;
@@ -1389,6 +1401,12 @@ gdjs.chiesa_45lvl_322Code.GDNewText242323Objects3.length = 0;
 gdjs.chiesa_45lvl_322Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.chiesa_45lvl_322Code.GDNewText35tyetrObjects2.length = 0;
 gdjs.chiesa_45lvl_322Code.GDNewText35tyetrObjects3.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFO2Objects1.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFO2Objects2.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFO2Objects3.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFOObjects1.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFOObjects2.length = 0;
+gdjs.chiesa_45lvl_322Code.GDINFOObjects3.length = 0;
 
 
 return;

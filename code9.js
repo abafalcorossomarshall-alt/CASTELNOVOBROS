@@ -69,6 +69,10 @@ gdjs.LIVELLICode.GDNewText242323Objects1= [];
 gdjs.LIVELLICode.GDNewText242323Objects2= [];
 gdjs.LIVELLICode.GDNewText35tyetrObjects1= [];
 gdjs.LIVELLICode.GDNewText35tyetrObjects2= [];
+gdjs.LIVELLICode.GDINFO2Objects1= [];
+gdjs.LIVELLICode.GDINFO2Objects2= [];
+gdjs.LIVELLICode.GDINFOObjects1= [];
+gdjs.LIVELLICode.GDINFOObjects2= [];
 
 
 gdjs.LIVELLICode.eventsList0 = function(runtimeScene) {
@@ -234,6 +238,10 @@ gdjs.LIVELLICode.GDNewText242323Objects1.length = 0;
 gdjs.LIVELLICode.GDNewText242323Objects2.length = 0;
 gdjs.LIVELLICode.GDNewText35tyetrObjects1.length = 0;
 gdjs.LIVELLICode.GDNewText35tyetrObjects2.length = 0;
+gdjs.LIVELLICode.GDINFO2Objects1.length = 0;
+gdjs.LIVELLICode.GDINFO2Objects2.length = 0;
+gdjs.LIVELLICode.GDINFOObjects1.length = 0;
+gdjs.LIVELLICode.GDINFOObjects2.length = 0;
 
 gdjs.LIVELLICode.eventsList0(runtimeScene);
 gdjs.LIVELLICode.GDNewSpriteObjects1.length = 0;
@@ -304,6 +312,10 @@ gdjs.LIVELLICode.GDNewText242323Objects1.length = 0;
 gdjs.LIVELLICode.GDNewText242323Objects2.length = 0;
 gdjs.LIVELLICode.GDNewText35tyetrObjects1.length = 0;
 gdjs.LIVELLICode.GDNewText35tyetrObjects2.length = 0;
+gdjs.LIVELLICode.GDINFO2Objects1.length = 0;
+gdjs.LIVELLICode.GDINFO2Objects2.length = 0;
+gdjs.LIVELLICode.GDINFOObjects1.length = 0;
+gdjs.LIVELLICode.GDINFOObjects2.length = 0;
 
 
 return;

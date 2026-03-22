@@ -69,6 +69,10 @@ gdjs.donazioneCode.GDNewText242323Objects1= [];
 gdjs.donazioneCode.GDNewText242323Objects2= [];
 gdjs.donazioneCode.GDNewText35tyetrObjects1= [];
 gdjs.donazioneCode.GDNewText35tyetrObjects2= [];
+gdjs.donazioneCode.GDINFO2Objects1= [];
+gdjs.donazioneCode.GDINFO2Objects2= [];
+gdjs.donazioneCode.GDINFOObjects1= [];
+gdjs.donazioneCode.GDINFOObjects2= [];
 
 
 gdjs.donazioneCode.eventsList0 = function(runtimeScene) {
@@ -256,6 +260,10 @@ gdjs.donazioneCode.GDNewText242323Objects1.length = 0;
 gdjs.donazioneCode.GDNewText242323Objects2.length = 0;
 gdjs.donazioneCode.GDNewText35tyetrObjects1.length = 0;
 gdjs.donazioneCode.GDNewText35tyetrObjects2.length = 0;
+gdjs.donazioneCode.GDINFO2Objects1.length = 0;
+gdjs.donazioneCode.GDINFO2Objects2.length = 0;
+gdjs.donazioneCode.GDINFOObjects1.length = 0;
+gdjs.donazioneCode.GDINFOObjects2.length = 0;
 
 gdjs.donazioneCode.eventsList0(runtimeScene);
 gdjs.donazioneCode.GDNewSpriteObjects1.length = 0;
@@ -326,6 +334,10 @@ gdjs.donazioneCode.GDNewText242323Objects1.length = 0;
 gdjs.donazioneCode.GDNewText242323Objects2.length = 0;
 gdjs.donazioneCode.GDNewText35tyetrObjects1.length = 0;
 gdjs.donazioneCode.GDNewText35tyetrObjects2.length = 0;
+gdjs.donazioneCode.GDINFO2Objects1.length = 0;
+gdjs.donazioneCode.GDINFO2Objects2.length = 0;
+gdjs.donazioneCode.GDINFOObjects1.length = 0;
+gdjs.donazioneCode.GDINFOObjects2.length = 0;
 
 
 return;

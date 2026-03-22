@@ -63,6 +63,10 @@ gdjs.WIN2Code.GDNewText242323Objects1= [];
 gdjs.WIN2Code.GDNewText242323Objects2= [];
 gdjs.WIN2Code.GDNewText35tyetrObjects1= [];
 gdjs.WIN2Code.GDNewText35tyetrObjects2= [];
+gdjs.WIN2Code.GDINFO2Objects1= [];
+gdjs.WIN2Code.GDINFO2Objects2= [];
+gdjs.WIN2Code.GDINFOObjects1= [];
+gdjs.WIN2Code.GDINFOObjects2= [];
 
 
 gdjs.WIN2Code.eventsList0 = function(runtimeScene) {
@@ -220,7 +224,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26816932);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26955684);
 }
 }
 if (isConditionTrue_0) {
@@ -380,6 +384,10 @@ gdjs.WIN2Code.GDNewText242323Objects1.length = 0;
 gdjs.WIN2Code.GDNewText242323Objects2.length = 0;
 gdjs.WIN2Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.WIN2Code.GDNewText35tyetrObjects2.length = 0;
+gdjs.WIN2Code.GDINFO2Objects1.length = 0;
+gdjs.WIN2Code.GDINFO2Objects2.length = 0;
+gdjs.WIN2Code.GDINFOObjects1.length = 0;
+gdjs.WIN2Code.GDINFOObjects2.length = 0;
 
 gdjs.WIN2Code.eventsList0(runtimeScene);
 gdjs.WIN2Code.GDNewSpriteObjects1.length = 0;
@@ -444,6 +452,10 @@ gdjs.WIN2Code.GDNewText242323Objects1.length = 0;
 gdjs.WIN2Code.GDNewText242323Objects2.length = 0;
 gdjs.WIN2Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.WIN2Code.GDNewText35tyetrObjects2.length = 0;
+gdjs.WIN2Code.GDINFO2Objects1.length = 0;
+gdjs.WIN2Code.GDINFO2Objects2.length = 0;
+gdjs.WIN2Code.GDINFOObjects1.length = 0;
+gdjs.WIN2Code.GDINFOObjects2.length = 0;
 
 
 return;

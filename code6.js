@@ -205,6 +205,12 @@ gdjs.Happy_45lvl_323Code.GDNewText242323Objects3= [];
 gdjs.Happy_45lvl_323Code.GDNewText35tyetrObjects1= [];
 gdjs.Happy_45lvl_323Code.GDNewText35tyetrObjects2= [];
 gdjs.Happy_45lvl_323Code.GDNewText35tyetrObjects3= [];
+gdjs.Happy_45lvl_323Code.GDINFO2Objects1= [];
+gdjs.Happy_45lvl_323Code.GDINFO2Objects2= [];
+gdjs.Happy_45lvl_323Code.GDINFO2Objects3= [];
+gdjs.Happy_45lvl_323Code.GDINFOObjects1= [];
+gdjs.Happy_45lvl_323Code.GDINFOObjects2= [];
+gdjs.Happy_45lvl_323Code.GDINFOObjects3= [];
 
 
 gdjs.Happy_45lvl_323Code.mapOfGDgdjs_9546Happy_959545lvl_9595323Code_9546GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.Happy_45lvl_323Code.GDPlayerObjects1});
@@ -339,7 +345,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Pause") >= 0.25;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26167252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26306004);
 }
 }
 if (isConditionTrue_0) {
@@ -529,7 +535,7 @@ for (var i = 0, k = 0, l = gdjs.Happy_45lvl_323Code.GDPlayerObjects2.length;i<l;
 gdjs.Happy_45lvl_323Code.GDPlayerObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26173548);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(26312300);
 }
 }
 if (isConditionTrue_0) {
@@ -1113,6 +1119,12 @@ gdjs.Happy_45lvl_323Code.GDNewText242323Objects3.length = 0;
 gdjs.Happy_45lvl_323Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.Happy_45lvl_323Code.GDNewText35tyetrObjects2.length = 0;
 gdjs.Happy_45lvl_323Code.GDNewText35tyetrObjects3.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFO2Objects1.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFO2Objects2.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFO2Objects3.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFOObjects1.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFOObjects2.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFOObjects3.length = 0;
 
 gdjs.Happy_45lvl_323Code.eventsList4(runtimeScene);
 gdjs.Happy_45lvl_323Code.GDCoinsObjects1.length = 0;
@@ -1319,6 +1331,12 @@ gdjs.Happy_45lvl_323Code.GDNewText242323Objects3.length = 0;
 gdjs.Happy_45lvl_323Code.GDNewText35tyetrObjects1.length = 0;
 gdjs.Happy_45lvl_323Code.GDNewText35tyetrObjects2.length = 0;
 gdjs.Happy_45lvl_323Code.GDNewText35tyetrObjects3.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFO2Objects1.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFO2Objects2.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFO2Objects3.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFOObjects1.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFOObjects2.length = 0;
+gdjs.Happy_45lvl_323Code.GDINFOObjects3.length = 0;
 
 
 return;
