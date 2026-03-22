@@ -1148,6 +1148,23 @@ if (isConditionTrue_0) {
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("INFO"), gdjs.Level2Code.GDINFOObjects1);
+{for(var i = 0, len = gdjs.Level2Code.GDINFOObjects1.length ;i < len;++i) {
+    gdjs.Level2Code.GDINFOObjects1[i].getBehavior("Opacity").setOpacity(0);
+}
+}
+}
+
+}
+
+
 };
 
 gdjs.Level2Code.func = function(runtimeScene) {
