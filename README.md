@@ -33,5 +33,5 @@ Essendo sviluppato in GDevelop 5, il gioco è nativamente pronto per essere espo
 2. Apri **GDevelop 5**.
 3. Seleziona "Apri un progetto" e scegli il file `game.json` (o il file di progetto principale) all'interno della cartella.
 4. Clicca sul pulsante **Anteprima (Preview)** in alto per avviare il gioco direttamente dall'editor.
-
+Oppure semplicemente visita il sito castelnovobros.it
 Sei pronto a scendere in campo? Buona partita! 🚀
